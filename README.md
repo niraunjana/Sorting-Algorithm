@@ -21,6 +21,27 @@ To write a program to perform selection sort and insertion sort using python pro
 i)	#Selection Sort
 ```
 
+Program to sort the elements in the list using the Selection Sort algorithm.
+Developed by: NIRAUNJANA GAYATHRI G R
+RegisterNumber: 22008369
+
+def selection_sort(nums):
+    for i in range(len(nums)):
+        lowest_value_index = i
+        for j in range(i+1, len(nums)):
+            if nums[j] < nums[lowest_value_index]:
+                lowest_value_index = j
+        nums[i], nums[lowest_value_index] = nums[lowest_value_index], nums[i]
+
+
+
+    
+    
+    
+    
+list_of_nums = eval(input())
+selection_sort(list_of_nums)
+print(list_of_nums)
 
 
 
@@ -28,7 +49,24 @@ i)	#Selection Sort
 ```
 ii)	#Insertion Sort
 ```
+Program to sort the elements in the list using the Insertion Sort algorithm.
+Developed by: NIRAUNJANA GAYATHRI G R
+RegisterNumber: 22008369
 
+def insertion_sort(nums):
+    for i in range(1, len(nums)):
+        item_to_insert = nums[i]
+        j = i -1
+        while j >=0 and nums[j] > item_to_insert:
+            nums[j+1] = nums[j]
+            j -= 1
+        nums[j+1] = item_to_insert   
+            
+    
+    
+list_of_nums = eval(input())
+insertion_sort(list_of_nums)
+print(list_of_nums)
 
 
 
@@ -37,6 +75,11 @@ ii)	#Insertion Sort
 ```
 
 ## Output:
+![WhatsApp Image 2023-01-25 at 21 10 43](https://user-images.githubusercontent.com/119395610/214608870-33ff98d2-ec6f-4b64-8948-42f5b75fa738.jpg)
+![WhatsApp Image 2023-01-25 at 21 11 52](https://user-images.githubusercontent.com/119395610/214608976-7648a42f-7266-4414-a0f7-d9064e2286f4.jpg)
+![WhatsApp Image 2023-01-25 at 21 13 27](https://user-images.githubusercontent.com/119395610/214609052-c4dd4ffe-707b-4cdf-9aa9-43fff35f4172.jpg)
+![WhatsApp Image 2023-01-25 at 21 16 09](https://user-images.githubusercontent.com/119395610/214609127-396f0dd0-4dad-4008-a0f2-3583c2c69009.jpg)
+
 
 
 ## Result:
