@@ -75,9 +75,13 @@ print(list_of_nums)
 ```
 
 ## Output:
+
 ![WhatsApp Image 2023-01-25 at 21 10 43](https://user-images.githubusercontent.com/119395610/214608870-33ff98d2-ec6f-4b64-8948-42f5b75fa738.jpg)
+
 ![WhatsApp Image 2023-01-25 at 21 11 52](https://user-images.githubusercontent.com/119395610/214608976-7648a42f-7266-4414-a0f7-d9064e2286f4.jpg)
+
 ![WhatsApp Image 2023-01-25 at 21 13 27](https://user-images.githubusercontent.com/119395610/214609052-c4dd4ffe-707b-4cdf-9aa9-43fff35f4172.jpg)
+
 ![WhatsApp Image 2023-01-25 at 21 16 09](https://user-images.githubusercontent.com/119395610/214609127-396f0dd0-4dad-4008-a0f2-3583c2c69009.jpg)
 
 
